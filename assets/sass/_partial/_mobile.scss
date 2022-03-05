@@ -72,6 +72,6 @@
 
 @include max-screen() {
   .mobile-navbar {
-    display: block;
+    display: none;
   }
 }

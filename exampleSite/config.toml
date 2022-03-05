@@ -5,7 +5,7 @@ title = "Even - A super concise theme for Hugo"
 preserveTaxonomyNames = true
 enableRobotsTXT = true
 enableEmoji = true
-theme = "even"
+theme = "hugo-theme-even"
 enableGitInfo = false # use git commit log to generate lastmod record # 可根据 Git 中的提交生成最近更新记录。
 
 # Syntax highlighting by Chroma. NOTE: Don't enable `highlightInClient` and `chroma` at the same time!
@@ -208,7 +208,8 @@ copyright = ""            # default: author.name ↓        # 默认为下面配
 # see https://gohugo.io/getting-started/configuration-markup
 [markup]
   [markup.tableOfContents]
-    startLevel = 1
+    startLevel = 2
+    endLevel = 2
   [markup.goldmark.renderer]
     unsafe = true
 

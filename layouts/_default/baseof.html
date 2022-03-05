@@ -40,6 +40,20 @@
     <div class="back-to-top" id="back-to-top">
       <i class="iconfont icon-up"></i>
     </div>
+
+    <div class="init-toc" id="init_toc">
+      <i class="iconfont icon-list"></i>
+    </div>
+    <div id="myModal" class="modal">
+
+      <!-- Modal content -->
+      <div class="modal-content">
+        <span id="toc-close" class="close">&times;</span>
+        {{- partial "post/toc.html" . -}}
+      </div>
+
+    </div>
+
   </div>
   {{ partial "scripts.html" . }}
 </body>

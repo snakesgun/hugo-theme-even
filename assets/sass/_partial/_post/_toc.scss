@@ -6,7 +6,7 @@
   font-family: $global-serif-font-family;
   border-radius: 5px;
   background: $post-toc-backgroud;
-  box-shadow: 1px 1px 2px rgba(0,0,0,0.125);
+  box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.125);
   word-wrap: break-word;
   box-sizing: border-box;
 
@@ -24,7 +24,7 @@
       display: block;
     }
 
-    >nav>ul {
+    > nav > ul {
       margin: 10px 0;
     }
 
@@ -51,5 +51,6 @@
 @include max-screen($toc-max-sreen-width) {
   .post-toc {
     display: none;
+    line-height: 2.5;
   }
 }
