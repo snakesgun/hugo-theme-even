@@ -63,7 +63,7 @@ Even._initToc = function () {
         top: minScrollTop,
       },
       process: {
-        position: "fixed",
+        // position: "fixed",
         top: SPACING,
       },
       process_mobile: {
