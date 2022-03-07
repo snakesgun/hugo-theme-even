@@ -59,7 +59,7 @@ Even._initToc = function () {
 
     const tocState = {
       start: {
-        position: "absolute",
+        // position: "absolute",
         top: minScrollTop,
       },
       process: {
@@ -70,7 +70,7 @@ Even._initToc = function () {
         top: SPACING,
       },
       end: {
-        position: "absolute",
+        // position: "absolute",
         top: maxScrollTop,
       },
     };
