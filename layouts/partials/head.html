@@ -32,6 +32,15 @@
 {{ with .Site.Params.baiduVerification }}<meta name="baidu-site-verification" content="{{.}}" />{{ end }}
 {{ with .Site.Params.googleVerification }}<meta name="google-site-verification" content="{{.}}" />{{ end }}
 
+<style>
+body {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+</style>
+
 <!-- Site Generator -->
 <meta name="generator" content="Hugo {{ .Site.Hugo.Version }} with theme even" />
 
